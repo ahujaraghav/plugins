@@ -600,4 +600,11 @@ static inline CGFloat radiansToDegrees(CGFloat radians) {
   }
 }
 
+- (void)setIOSDefaultAudioSessionConfiguration:(FLTIOSDefaultAudioSessionConfigurationMessage*)input
+                   error:(FlutterError* _Nullable __autoreleasing*)error {
+  if ([input.isDefaultAudioConfigurationEnabled boolValue]) {
+    NSLog("in")
+  }
+}
+
 @end
