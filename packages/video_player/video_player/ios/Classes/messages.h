@@ -52,7 +52,7 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 @interface FLTIOSDefaultAudioSessionConfigurationMessage : NSObject
-@property(nonatomic, strong, nullable) NSNumber *mixWithOthers;
+@property(nonatomic, strong, nullable) NSNumber *isDefaultAudioConfigurationEnabled;
 @end
 
 @protocol FLTVideoPlayerApi

@@ -357,5 +357,5 @@ class VideoPlayerOptions {
   /// set additional optional player settings
   VideoPlayerOptions(
       {this.mixWithOthers = false,
-      this.isDefaultAudioConfigurationEnabled = false});
+      this.isDefaultAudioConfigurationEnabled = true});
 }
